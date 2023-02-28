@@ -17,7 +17,7 @@ export default function (props) {
 
       <input
         type="checkbox"
-        name="select"
+        name="delete-checkbox"
         id="select"
         onChange={() => {
           setIsSelected(!isSelected);

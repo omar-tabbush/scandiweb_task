@@ -131,10 +131,10 @@ export default function AddProduct() {
               </th>
               <th>
                 <select
-                  id="type"
+                  id="productType"
                   onChange={(e) => {
                     setType(e.target.value);
-                    setProduct({ ...product, [e.target.id]: e.target.value });
+                    setProduct({ ...product, type: e.target.value });
                   }}
                 >
                   <option value="0">dvd</option>

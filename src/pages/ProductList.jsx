@@ -53,7 +53,7 @@ export default function ProductList() {
 
   return (
     <>
-      <div  className="top">
+      <div className="top">
         <h1>Product List</h1>
         <div>
           <button

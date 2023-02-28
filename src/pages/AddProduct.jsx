@@ -119,7 +119,7 @@ export default function AddProduct() {
                   onChange={(e) => {
                     setProduct({ ...product, [e.target.id]: e.target.value });
                   }}
-                  type="text"
+                  type="number"
                   id="price"
                   value={product?.price}
                 />
@@ -137,9 +137,9 @@ export default function AddProduct() {
                     setProduct({ ...product, type: e.target.value });
                   }}
                 >
-                  <option value="0">dvd</option>
-                  <option value="2">furniture</option>
-                  <option value="1">book</option>
+                  <option value="0">DVD</option>
+                  <option value="2">Furniture</option>
+                  <option value="1">Book</option>
                 </select>
               </th>
             </tr>

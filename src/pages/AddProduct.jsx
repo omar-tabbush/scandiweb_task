@@ -127,7 +127,7 @@ export default function AddProduct() {
             </tr>
             <tr>
               <th>
-                <label htmlFor="attribute">type: </label>
+                <label htmlFor="productType">type: </label>
               </th>
               <th>
                 <select

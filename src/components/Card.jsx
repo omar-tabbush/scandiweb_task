@@ -12,12 +12,12 @@ export default function (props) {
     <div className="card">
       <p> {product?.sku} </p>
       <p> {product?.name} </p>
-      <p> {product?.price} </p>
+      <p> {product?.price} $ </p>
       <p> {product?.attribute} </p>
 
       <input
         type="checkbox"
-        name="delete-checkbox"
+        className="delete-checkbox"
         id="select"
         onChange={() => {
           setIsSelected(!isSelected);

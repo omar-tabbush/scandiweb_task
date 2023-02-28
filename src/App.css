@@ -98,7 +98,7 @@
 }
 
 input,
-select {
+#productType {
   margin: 0.7rem;
   padding: 0.7rem;
   border-radius: 5px;

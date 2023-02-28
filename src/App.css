@@ -1,0 +1,114 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.card {
+  position: relative;
+  padding: 1em;
+  border: solid 1px #eaeaea;
+  width: 250px;
+  height: 250px;
+  margin: 1vw;
+  text-align: center;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.card input[type="checkbox"] {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.top {
+  padding: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #eaeaea;
+}
+
+@media screen and (max-width: 650px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: fixed;
+    height: 120px;
+    font-size: small;
+    width: 100%;
+    top: 0;
+  }
+  .list{
+    padding-top: 120px;
+  }
+  .table {
+    margin: 2%;
+    margin-top: 120px !important;
+    width: 95% !important;
+
+  }
+}
+
+
+
+.top button {
+  margin-inline: 0.5rem;
+}
+
+.danger {
+  background-color: #7e2f2f;
+  color: #fff;
+}
+
+.danger:hover {
+  background-color: #6e2a2a;
+  outline: rgb(0, 0, 87);
+}
+
+#product_form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.table {
+  margin: 2vw;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+ width: 40%;
+}
+
+.table * {
+  text-align: justify;
+}
+
+input,
+select {
+  margin: 0.7rem;
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: solid 1px #eaeaea;
+  transition: 0.3s;
+  width: 100%;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border: solid 1px #646cff;
+}
